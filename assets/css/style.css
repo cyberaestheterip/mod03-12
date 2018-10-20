@@ -1,101 +1,38 @@
-#summary {
-	/*
-	background-image: url("../images/twitter.png");
+body > div {
+	background-image: url("../images/twitter3.png");
 	background-size: cover;
-	background-repeat: no-repeat;
 	background-position: center;
-	background-color: skyblue;
-	background-attachment: fixed;
-	*/
-	background: url("../images/twitter2.png") no-repeat center center fixed;
-	background-size: cover;
-	/*
-	height: 100%;
-	*/
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-#summary ul {
-}
-
-#summary li {
-	background: none;
-	color: #fff;
-	border: none;
-}
-
-#summary li, 
-.fab,
-.fas,
-.far {
-	color: #fff;
-	text-shadow:
-	   -1px -1px 0 #000,  
-	    1px -1px 0 #000,
-	    -1px 1px 0 #000,
-	     1px 1px 0 #000;
-	font-weight: bold;
-}
-
-.btn-outline-dark {
-	border-color: rgb(230, 236, 240);
-}
-
-nav .btn-outline-primary {
-	border-radius: 32px;
-}
-
-body > .container-fluid {
-	min-height: 100vh;
-	/*
+	background-repeat: no-repeat;
 	height: 100vh;
-	*/
 }
 
-body > .container-fluid > .row:nth-child(1) {
-	/*
-	min-height: 90vh;
-	*/
+body > div > main {
 }
 
-body > .container-fluid > .row > section,
-body > .container-fluid > .row > main {
-	/*
-	height: 100%;
-	*/
+body > div > footer {
+	min-height: 50px;
 }
 
-.container .btn {
+@media only screen and (max-width: 576px) {
+	body > div {
+		height: auto;
+	}
+}
+
+.summary,
+.landing {
+	min-height: 250px;
+}
+
+.landing a {
 	border-radius: 32px;
 }
 
-nav h6 {
-	text-align: center;
-	color: #ccc;
-}
-
-.container {
-	/*
-	height: 80vh;
-	*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.fa-twitter {
+.landing i {
 	font-size: 2.5rem;
+	color: skyblue;
 }
 
-footer {
-	/*
-	min-height: 5vh;
-	transform: translateY(-5vh);
-	*/
-	width: 100%;
-	font-size: 0.6rem;
+.landing > section > div {
+	max-width: 350px;
 }
-

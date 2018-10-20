@@ -6,125 +6,114 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<!--
 		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+		-->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 		<title>Twitter Landing Page</title>
 	</head>
 	<body>
-		<div class="container-fluid d-flex-col">
-			<div class="row flex-grow-1">
-				<section id="summary" class="col-12 order-2 col-lg-6 order-lg-1">
-					<ul class="list-group">
-						<li class="list-group-item "><i class="fab fa-searchengin"></i> Follow your interests.</li>
-						<li class="list-group-item"><i class="fas fa-users"></i> Hear what people are talking about.</li>
-						<li class="list-group-item"><i class="far fa-comment"></i> Join the conversation.</li>
-					</ul>
-				</section>
-				<main class="col-12 order-1 col-lg-6 order-lg-2">
-					<nav class="navbar navbar-expand-lg navbar-light">
-							<!--
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-							-->
-						<div id="navbarContent" class="collapse navbar-collapse">
-							<ul class="navbar-nav mx-auto">
-								<li class="nav-item mx-3">
-									<input type="text" placeholder="Phone, email, or username" class="form-control">
-									<!--
-									<a href="" class="btn btn-outline-dark">Phone, email, or username</a>
-									-->
+		<div class="container-fluid d-flex flex-column">
+			<main class="row flex-grow-1">
+				<div class="landing col-md-6 order-md-2 d-flex flex-column bg-light">
+					<nav class="navbar navbar-light navbar-expand-xl">
+						<form class="collapse navbar-collapse form-inline w-100 justify-content-between align-items-baseline">
+							<input type="text" placeholder="Phone, email, or username" class="form-control">
+							<div class="d-flex flex-column">
+								<input type="password" placeholder="Password" class="form-control">
+								<a href="#">Forgot password?</a>
+							</div>
+							<a href="#" class="btn btn-outline-primary">Log in</a>
+						</form>
+					</nav>
+					<section class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+						<div class="jumbotron bg-transparent">
+							<i class="fab fa-twitter my-3"></i>
+							<h4 class="my-3">See what’s happening in the world right now</h1>
+							<p class="my-3">Join Twitter today.</p>
+							<ul class="list-group my-3">
+								<li class="list-group-item bg-transparent border-0 d-flex justify-content-center flex-frow-1">
+								<a href="#" class="btn btn-primary flex-grow-1">Sign up</a>
 								</li>
-								<li class="nav-item mx-3">
-									<!--
-									<a href="" class="btn btn-outline-dark">Password</a>
-									-->
-									<input type="password" placeholder="Password" class="form-control">
-									<h6>Forgot password?</h6>
-								</li>
-								<li class="nav-item mx-3">
-									<a href="#" class="btn btn-outline-primary">Log In</a>
+								<li class="list-group-item bg-transparent bg-transparent border-0 d-flex justify-content-center">
+								<a href="#" class="btn btn-outline-primary flex-grow-1">Log in</a>
 								</li>
 							</ul>
 						</div>
-					</nav>
-					<section class="container">
-						<div class="row">
-							<div class="col-8 offset-2">
-								<p><i class="fab fa-twitter"></i></p>
-								
-								<h3 class="mb-5">See what's happening in the world right now</h1>
-								<h6>Join Twitter today.</h4>
-								<ul class="nav flex-column">
-									<li class="nav-item mb-3">
-										<a href="#" class="nav-link btn btn-primary">Sign Up</a>
-									</li>
-									<li class="nav-item">
-										<a href="#" class="nav-link btn btn-outline-primary">Log In</a>
-									</li>
-							</div>
-						</div>
 					</section>
-				</main>
-			</div>
-			<div class="row">
-				<footer class="bg-light order-3">
-					<ul class="nav d-flex align-items-center justify-content-center">
-					  <li class="nav-item">
-					    <a class="nav-link active" href="#">About</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Help Center</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Blog</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Status</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Jobs</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Terms</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Privacy policy</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Cookies</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Ads info</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Brand</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Advertise</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Marketing</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Businesses</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Developers</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Directory</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Settings</a>
-					  </li>
-					  <li class="nav-item">
-					    <span>&copy; 2018 Twitter, Inc.</span>
-					  </li>
-					</ul>
-				</footer>
-			</div>
+				</div>
+				<div class="summary col-md-6 order-md-1 d-flex align-items-center justify-content-center">
+					<div class="row">
+						<ul class="list-group">
+							<li class="list-group-item bg-transparent border-0 text-white font-weight-bold mb-3"><i class="fas fa-search"></i> Follow your interests.</li>
+							<li class="list-group-item bg-transparent border-0 text-white font-weight-bold mb-3"><i class="fas fa-users"></i> Hear what people are talking about.</li>
+							<li class="list-group-item bg-transparent border-0 text-white font-weight-bold mb-3"><i class="fas fa-comment"></i> Join the conversation.</li>
+						</ul>
+					</div>
+				</div>
+			</main>
+			<footer class="row nav bg-light">
+				<ul class="nav justify-content-center">
+					<li class="nav-item">
+						<a href="#" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Help Center</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Status</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Jobs</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Terms</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Privacy Policy</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Imprint</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Cookies</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Ads Info</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Brand</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Apps</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Advertise</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Marketing</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Businesses</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Developers</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Directory</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Settings</a>
+					</li>
+					<li class="nav-item">
+						<span>&copy; 2018 Twitter</span>
+					</li>
+				</ul>
+			</footer>
 		</div>
 
 		<script src="assets/js/jquery-3.3.1.min.js"></script>
